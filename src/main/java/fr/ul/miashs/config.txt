@@ -1,0 +1,13 @@
+temps-simulation=1000
+temps-écriture-disque=100
+temps-charge-page=50
+interruption-horloge=50
+processus-ordonnancement=FIFO
+processus-quantum=100
+pagination-politique-allocation=locale
+pagination-nombre-cadres-locale=4
+pagination-nombre-cadres=8
+pagination-algorithme=FIFO
+disque-ordonnancement=FIFO
+disque-position-initiale=0
+disque-direction-initiale=droite
