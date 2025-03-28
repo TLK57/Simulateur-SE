@@ -1,7 +1,9 @@
 package fr.ul.miashs;
-
+import java.util.Arrays;
+import java.util.List;
 public class Ordonnanceur {
-
+    // Ajout de l'attribut pour la gestion mémoire
+        GestionDisque gestion = new GestionDisque(requetes, positionInitiale, directionInitiale);
     // Ajout de l'attribut pour la gestion mémoire
     private static GestionMemoire gestionMemoire;
 
